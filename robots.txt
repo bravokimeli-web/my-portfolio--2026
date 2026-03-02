@@ -1,0 +1,48 @@
+# robots.txt for Ham Matage Portfolio
+# DevOps Engineer Portfolio - SEO Optimized
+
+User-agent: *
+Allow: /
+
+# Block access to specific directories (if you have admin areas)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://www.hamanmatage.com/sitemap.xml
+
+# Crawl delay (optional - use if needed to reduce server load)
+# Crawl-delay: 10
+
+# Common bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Crawl-delay: 5
+
+# Social media crawlers (allow for proper sharing)
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /

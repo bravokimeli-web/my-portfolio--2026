@@ -1,0 +1,8 @@
+{
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "public": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/php.html" }
+  ]
+}
